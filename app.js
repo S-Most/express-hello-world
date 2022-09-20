@@ -39,5 +39,5 @@ app.use('*', (req,res) => {
     })
     .end()
 })
-
+console.log("Hey Bitter!")
 module.exports = app
